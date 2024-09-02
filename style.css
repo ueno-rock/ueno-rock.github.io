@@ -1,0 +1,457 @@
+
+.logo{
+    width: 200px;
+    height: 80px;
+    object-fit: cover;
+    margin-left: 1%;
+}
+
+section{
+    width: 100%;
+}
+
+@media screen and (max-width: 875px) {
+    .logo{width: 110px;
+        height: 50px;
+        object-fit: cover;
+        margin-left: 5px;
+    }
+}
+
+body{
+    width: 100%;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.aboutus{
+    font-size: 70px;
+}
+
+main{
+    margin-top: 80px;
+}
+.main{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.text1{
+    margin-left: 3%;
+    margin-top:10%;
+}
+
+.mainpic{
+    width: 50%;
+    height: 900px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.why{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.whypic{
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.text{
+    margin: auto;
+}
+ 
+@media screen and (max-width: 875px) {
+    .text1{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .aboutus{
+        font-size: 40px;
+        margin: 10px 0;
+    }
+    h2{
+        margin: 0;
+        font-size: 20px;
+    }
+    .title{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .main{
+        display: block;
+    }
+    .mainpic{
+        height: 160px;
+        width: 80%;
+        object-fit: cover;
+        margin-left: 10%;
+    }
+    .textfirst{
+        font-size: 14px;
+        margin: 10px;
+    }
+    .whypic{
+        height: 160px;
+        width: 80%;
+        object-fit: cover;
+        margin-left: 10%;
+    }
+    .text{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .whydetail2{
+        font-size: 11px;
+    }
+}
+
+.newstopcsection{
+    width: 100%;
+} 
+
+.line{
+    border: none;
+    border-top: 1px dotted #999;
+    margin: 30px;
+  }
+
+.news{
+    display: flex;
+    margin-left: 80px;
+}
+
+.morebtn{
+    margin: auto;
+    margin-right: 15%;
+}
+
+.newstext{
+    margin: 25px 0 0 50px;
+}
+
+.topic{
+    display: flex;
+    margin-left: 80px;
+}
+
+.topictext{
+    margin: 25px 0 0 50px;
+}
+
+@media screen and (max-width: 875px) {
+    .news{
+        display: block;
+        margin-left: 20px;
+
+    }
+    .topic{
+        display: block;
+        margin-left: 20px;
+    }
+    .newstext{
+        margin: 10px 0 15px 0;
+    }
+    .topictext{
+        margin: 10px 0 15px 0;
+    }
+    .newstitle{
+        font-size:20px
+    }
+    .line{
+        margin: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+
+}
+
+.membersection{
+    max-width: 100%;
+    /* padding: 1%; */
+}
+
+.memberhed{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.members{
+    margin: 0 20px 0 40%;
+    font-size: 40px;
+}
+
+.memberstitle{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.memberspic{
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    border: 2px solid #696969;
+}
+
+.teacher{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.student{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.memberstext{
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 875px) {
+    .memberhed{
+        display: block;
+    }
+    .members{
+        margin-left:20px;
+        font-size: 26px;
+
+    }
+    .memberstitle{
+        font-size: 22px;
+        margin: 40px 0;
+    }   
+    .teacher{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .student{
+        display: block;
+        text-align: center;
+    }
+    .memberstext{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+}
+
+.schesection{
+    max-width: 100%;
+}
+
+.sche{
+    text-align: center;
+    font-size: 40px;
+}
+
+.schepic{
+    width: 60%;
+    height: 500px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 875px) {
+    .schetitle{
+        font-size: 33px;
+        margin: 0;
+    }
+    .schepic{
+        height: 200px;
+    }
+}
+
+.contactpic{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.reco{
+    text-align: center;
+    font-size: 40px;
+}
+
+.recohed{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.recobtn{
+    margin: 40px;
+}
+
+.recopic{
+    width: 200px;
+    height: 350px;
+    object-fit: cover;
+    border: 3px solid black;
+}
+
+
+.recomm{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media screen and (max-width: 875px) {
+    .recohed{
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+    .reco{
+        font-size: 22px;
+        margin: 0;
+        margin-top: 14px;
+        text-align-last: left;
+    }
+    .recobtn{
+        margin: 33px
+    }
+
+    .slide-wrapper{
+        margin-bottom: 50px;
+    }
+}
+
+
+#contact{
+    font-size: 40px;
+    margin-left: 10%;
+}
+
+.con{
+    display: flex;
+    margin-bottom: 80px;
+}
+.coco{
+    margin: 0 auto;
+    display: flex;
+}
+.cotext{
+    margin-left: 30px;
+    align-items: center;
+}
+
+.conmain{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#myname{
+    font-size: 20px;
+    margin: 45px 0 0 30px;
+}
+
+.contactpic{
+    align-items: center;
+    object-fit: cover;
+    width: 90px;
+    height: 90px;
+
+}
+
+@media screen and (max-width: 875px) {
+    #contact{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    #myname{
+        margin:28px 0 0 30px
+    }
+    .con{
+       display: block;
+       padding: auto;
+    }
+    .coco{
+        margin-left: 20px;
+    }
+}
+
+
+
+#page-top {
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+}
+
+.yajirusi{
+    object-fit: cover;
+    width: 180px;
+}
+@media screen and (max-width: 875px) {
+    .yajirusi{
+        width: 100px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    footer{
+        padding: 0;
+    }
+}
+
+.kaigyou{
+    display: none;
+}
+
+@media screen and (max-width: 875px) {
+    .kaigyou{
+        display: block;
+    }
+}
+
+/* メンバー紹介　HTML */
+.memberspic2{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #696969;
+}
+
+#mmname{
+    width: 100%;
+    text-align: center;
+    margin:0 auto ;
+    padding: 50px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 875px) {
+    .memberspic2{
+        width: 70px;
+        height: 70px;
+    }
+    #mmname{
+        font-size:10px;
+        padding: 0;
+        width: 100px;
+        justify-content: center;
+    }
+}
