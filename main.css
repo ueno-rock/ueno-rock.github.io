@@ -1,0 +1,158 @@
+ol{
+    list-style: none;
+    font-size: 20px;
+}
+
+.toc {
+    margin: 10px;
+    margin-right: 65%;
+    padding: 20px;
+    border: 2px solid #b0c4de;
+    border-radius: 8px;
+    position:relative;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.toc::before {
+    background-color: #fff;
+    color: #b0c4de;
+    content: "目次";
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    padding: 0 20px;
+    left: 10px;
+    top: -10px;
+}
+
+.no2{
+    display: flex;
+}
+
+.mokuji{
+    color: black;
+}
+
+main{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+h1{
+    padding-top: 50px;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+h3{
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.process{
+    width: 700px;
+    object-fit: cover;
+}
+
+.motivation{
+    width: 260px;
+    object-fit: cover;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.passgoal{
+    width: 800px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+
+.ex {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #b0c4de;
+    border-radius: 8px;
+    position:relative;
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ex::before {
+    background-color: #fff;
+    color: #b0c4de;
+    content: "Example";
+    font-weight: bold;
+    position: absolute;
+    padding: 0 20px;
+    left: 10px;
+    top: -10px;
+}
+#myname{
+    margin-top: 92px;
+}
+
+@media screen and (max-width: 875px) {
+    h1{
+        padding: 0;
+        font-size: 30px;
+    }
+    .process{
+        width: 350px;
+        object-fit: cover;
+    }
+    .doukiduke{
+        width: 350px;
+        object-fit: cover;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .passgoal{
+        width: 350px;
+        object-fit: cover;
+    }
+
+    h2.maintitle{
+        font-size: 25px;
+    }
+    h3.mainsubtitle{
+        font-size: 20px;
+    }
+    .no2{
+        display: block;
+    }
+    p{
+        font-size: 14px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #myname{
+        margin-top: 25px;
+    }
+    .ex{
+        width: 300px;
+        margin-bottom: 40px;
+    }
+    .mokuji{
+        font-size: 17px;
+    }
+
+    .toc{
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .process{
+        margin-bottom: 40px;
+    }
+
+    .motivation{
+        margin-bottom: 40px;
+    }
+}
