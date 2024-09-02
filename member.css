@@ -1,0 +1,98 @@
+/*infoエリアをはじめは非表示*/
+#kim{
+	display: none;
+}
+#ueno{
+	display: none;
+}
+#matsumoto{
+	display: none;
+}
+#nomura{
+	display: none;
+}
+#taniguchi{
+	display: none;
+}
+#tanaka{
+	display: none;
+}
+#morimoto{
+	display: none;
+}
+#aikawa{
+	display: none;
+}
+#hayasaka{
+	display: none;
+}
+#matsumura{
+	display: none;
+}
+#okazaki{
+	display: none;
+}
+#watanabe{
+	display: none;
+}
+
+/* ----news------ */
+#a20240711{
+	display: none;
+}
+#a20240629{
+	display: none;	
+}
+#a20240602{
+	display: none;	
+}
+#a20240418{
+	display: none;	
+}
+#a20240323{
+	display: none;	
+}
+#a20240115{
+	display: none;	
+}
+#a20231213{
+	display: none;	
+}
+#a20231121{
+	display: none;	
+}
+#a20230927{
+	display: none;	
+}
+#a20230811{
+	display: none;	
+}
+#a20230615{
+	display: none;	
+}
+#a20230505{
+	display: none;	
+}
+#a20230422{
+	display: none;	
+}
+
+
+
+/*モーダルの横幅を変更したい場合*/
+.modaal-container{
+    max-width: 600px;
+}
+
+/*モーダルのボタンの色を変更したい場合*/
+.modaal-close:after, 
+.modaal-close:before{
+	background:#ccc;	
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before{
+	background:#666;
+}
